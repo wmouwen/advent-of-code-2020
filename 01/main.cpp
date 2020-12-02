@@ -1,5 +1,4 @@
 #include <iostream>
-#include <sstream>
 #include <vector>
 
 using namespace std;
@@ -13,7 +12,7 @@ int findPair(const vector<int> &numbers) {
         }
     }
 
-    throw exception("No valid solution found.");
+    throw exception();
 }
 
 int findTriplet(const vector<int> &numbers) {
@@ -27,7 +26,7 @@ int findTriplet(const vector<int> &numbers) {
         }
     }
 
-    throw exception("No valid solution found.");
+    throw exception();
 }
 
 int main() {
